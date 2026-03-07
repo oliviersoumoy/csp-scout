@@ -21,9 +21,9 @@ jobs:
           node-version: 20
 
       - name: Install dependencies
-  run: |
-    npm install
-    npx playwright install chromium
+        run: |
+          npm install
+          npx playwright install chromium
 
       - name: Run scraper
         run: node csp_scout.js
