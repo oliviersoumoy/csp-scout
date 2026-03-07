@@ -9,7 +9,7 @@ const LIST_URLS = [
   "https://choisirleservicepublic.gouv.fr/nos-offres/filtres/mot-cles/num%C3%A9rique/localisation/283-284/domaine/3505-3506-3507-3512-3513-3514-3522-3530-3531/categorie/4327-4328-1805/"
 ];
 
-const MAX_OFFERS_PER_LIST = 200; // ajuste
+const MAX_OFFERS_PER_LIST = 20; // ajuste
 const HEADLESS = true;          // mets false si tu veux voir le navigateur
 
 // === SCORING ===
