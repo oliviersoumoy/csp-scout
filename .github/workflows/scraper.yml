@@ -2,8 +2,8 @@ name: CSP Scraper
 
 on:
   schedule:
-    - cron: "0 13 * * *"
-    - cron: "0 19 * * *"
+    - cron: "0 5 * * *"
+    - cron: "0 10 * * *"
   workflow_dispatch:
 
 jobs:
